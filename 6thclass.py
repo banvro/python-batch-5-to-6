@@ -1,69 +1,79 @@
-def sum(*args):
-    total = 0
-    for i in args:
-        total = total + i
+# def sum(*args):
+#     total = 0
+#     for i in args:
+#         total = total + i
     
-    return total
+#     return total
 
-def subtraction(*args):
-    total = 0
-    for i in args:
-        total = total - i
+# def subtraction(*args):
+#     total = 0
+#     for i in args:
+#         total = total - i
     
-    return total
+#     return total
 
-def multi(*args):
-    total = 1
-    for i in args:
-        total = total * i
+# def multi(*args):
+#     total = 1
+#     for i in args:
+#         total = total * i
     
-    return total
+#     return total
 
 
-def devsion(*args):
-    total = 0
-    for i in args:
-        total = total/ i
-    return total
+# def devsion(*args):
+#     total = 0
+#     for i in args:
+#         total = total/ i
+#     return total
 
 
-while True:
-    wish = input("Press s to start or q to stop : ")
+# while True:
+#     wish = input("Press s to start or q to stop : ")
 
-    if wish == "q":
-        break
+#     if wish == "q":
+#         break
 
-    print(":::::::Calculator:::::::::")
+#     print(":::::::Calculator:::::::::")
 
-    usewaunt = int(input("How many numbers want to Enter : "))
+#     usewaunt = int(input("How many numbers want to Enter : "))
 
-    nums = [int(input("Enter number : ")) for i in range(usewaunt)]
+#     nums = [int(input("Enter number : ")) for i in range(usewaunt)]
 
-    print("""
-        **** Enter what you wish to do ****
-        1) Adation
-        2) Sustraction
-        3) Multiplication
-        4) Devsion 
-    """)
+#     print("""
+#         **** Enter what you wish to do ****
+#         1) Adation
+#         2) Sustraction
+#         3) Multiplication
+#         4) Devsion 
+#     """)
         
-    choice = input("Enter What to want : ")
+#     choice = input("Enter What to want : ")
 
-    if choice == "1":
-        xyz = sum(*nums)
-        print("The output is : ", xyz)
+#     if choice == "1":
+#         xyz = sum(*nums)
+#         print("The output is : ", xyz)
 
-    elif choice == "2":
-        xyz = subtraction(*nums)
-        print("The output is : ", xyz)
+#     elif choice == "2":
+#         xyz = subtraction(*nums)
+#         print("The output is : ", xyz)
 
-    elif choice == "3":
-        xyz = multi(*nums)
-        print("The output is : ", xyz)
+#     elif choice == "3":
+#         xyz = multi(*nums)
+#         print("The output is : ", xyz)
 
-    elif choice == "4":
-        xyz = devsion(*nums)
-        print("The output is : ", xyz)
+#     elif choice == "4":
+#         xyz = devsion(*nums)
+#         print("The output is : ", xyz)
 
-    else:
-        print("Somthing went wrong....")
+#     else:
+#         print("Somthing went wrong....")
+
+
+
+
+# OOPs: ( objbect oriented programming,,,..)
+# its an relationship  between objects and classes
+# 1) Inharitance
+# 2) Polymorphism
+# 3) Abstraction
+# 4) Encapsulation
